@@ -41,7 +41,8 @@ Quantitative and Qualitative Results:
 
 Justification of Results:
 
-Ethical Consideration
+**Ethical Consideration**
+
 One ethical benefit is that it can help audiences know the rating of a movie without being spoiled. Audiences may leave pieces of plot in review on social media, so other audiences can use our model to evaluate the movie based on these reviews without knowing the plot of the movie by accident. However, the dataset may not be balanced in terms of demographics, leading to a biased problem. As different movie themes may appeal to distinct groups of people, they may elicit various emotional responses in reviews that could influence the movie's ratings.
 
 Movie producers can use our model to understand the public's evaluation of their movies based on scattered reviews on social media that may not include a formal rating. This can guide producers to make future decisions regarding marketing and production. However, the ethical issue is movie producers may increasingly rely on sentiment analysis for evaluating audience sentiment, but it should be used in conjunction with other factors and not as the sole determinant.
@@ -49,8 +50,12 @@ Movie producers can use our model to understand the public's evaluation of their
 Also, there are limitations of our model. One limitation is lack of context awareness. Some sentences may have irony or sarcasm. It is hard to determine the real meanings of those sentences without considering the background of those sentences, hence it is hard to classify the movie reviews as positive or negative. Another limitation is lack of topic knowledge. Since our dataset doesn’t include the topic of movies, our model may not accurately generate appropriate ratings for specific movie topics. For example, ‘It makes me cry’ in a horror movie may mean something positive. 
 
 The limitation of our dataset is lack of other forms of comments. For example, many comments will have emojis, pictures, but our dataset only concludes text. Those emojis and pictures also express a lot of meanings, and even some text content with emojis may indicate jokes, irony, etc. Therefore, the lack of these forms of comments will make our rating not entirely accurate.
-Authors
+
+**Authors**
 Jialin CAI: write the LSTM + CNN model and train models, Tuning hyperparameters, analyze output of models, (in README:) write introduction part, model figure part, model parameters part, model examples part, write data source part, write data split part, write training curve part, write hyperparameter tuning part, write quantitative measures part, write quantitative and qualitative results part, write justification of results part.
+
 Ziyang Qu: write data analysis code, (in README:) write data summary part, write ethical consideration part, write authors part, establish github, submit project.
+
 Yifan QIN: find dataset source, write get accuracy code.
+
 Zeyang WANG: write Naive-bayes model, write data transform code.
